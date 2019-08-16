@@ -7,11 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3016EE169459347B6EF7C2C5 /* Pods_Yummy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4BB534B89425B6B0DD37B85 /* Pods_Yummy.framework */; };
 		6DBE36F222C6C931000BE67A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE36F122C6C931000BE67A /* AppDelegate.swift */; };
 		6DBE36F422C6C931000BE67A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE36F322C6C931000BE67A /* ViewController.swift */; };
 		6DBE36F722C6C931000BE67A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DBE36F522C6C931000BE67A /* Main.storyboard */; };
 		6DBE36F922C6C939000BE67A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DBE36F822C6C939000BE67A /* Assets.xcassets */; };
 		6DBE36FC22C6C939000BE67A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DBE36FA22C6C939000BE67A /* LaunchScreen.storyboard */; };
+		6DBE370522C75119000BE67A /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE370422C75119000BE67A /* BaseView.swift */; };
+		6DBE370922C75278000BE67A /* DetailsFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE370822C75278000BE67A /* DetailsFoodView.swift */; };
+		6DBE370B22C753E9000BE67A /* DetailsFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE370A22C753E9000BE67A /* DetailsFoodViewController.swift */; };
+		6DBE370E22C75497000BE67A /* RestaruntsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE370D22C75497000BE67A /* RestaruntsTableViewController.swift */; };
+		6DBE371122C75554000BE67A /* ResturantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE371022C75554000BE67A /* ResturantCell.swift */; };
+		6DBE371722C75832000BE67A /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE371622C75832000BE67A /* LocationController.swift */; };
+		6DBE371B22C75AE0000BE67A /* TrackerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE371A22C75AE0000BE67A /* TrackerModel.swift */; };
+		6DBE371E22C76A6F000BE67A /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE371D22C76A6F000BE67A /* AppManager.swift */; };
+		6DBE372022C77805000BE67A /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE371F22C77805000BE67A /* Network.swift */; };
+		6DBE372222C7C1C7000BE67A /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE372122C7C1C6000BE67A /* Business.swift */; };
+		6DBE379023075D9B000BE67A /* DetailsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE378F23075D9B000BE67A /* DetailsCollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,20 @@
 		6DBE36F822C6C939000BE67A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DBE36FB22C6C939000BE67A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DBE36FD22C6C939000BE67A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DBE370422C75119000BE67A /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		6DBE370822C75278000BE67A /* DetailsFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsFoodView.swift; sourceTree = "<group>"; };
+		6DBE370A22C753E9000BE67A /* DetailsFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsFoodViewController.swift; sourceTree = "<group>"; };
+		6DBE370D22C75497000BE67A /* RestaruntsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaruntsTableViewController.swift; sourceTree = "<group>"; };
+		6DBE371022C75554000BE67A /* ResturantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantCell.swift; sourceTree = "<group>"; };
+		6DBE371622C75832000BE67A /* LocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
+		6DBE371A22C75AE0000BE67A /* TrackerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerModel.swift; sourceTree = "<group>"; };
+		6DBE371D22C76A6F000BE67A /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		6DBE371F22C77805000BE67A /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		6DBE372122C7C1C6000BE67A /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		6DBE378F23075D9B000BE67A /* DetailsCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCollectionCell.swift; sourceTree = "<group>"; };
+		A8F3A227A9FA4528537EE2DF /* Pods-Yummy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yummy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yummy/Pods-Yummy.debug.xcconfig"; sourceTree = "<group>"; };
+		B4BB534B89425B6B0DD37B85 /* Pods_Yummy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yummy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8B389ABB457B739161928CC /* Pods-Yummy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yummy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yummy/Pods-Yummy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +55,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3016EE169459347B6EF7C2C5 /* Pods_Yummy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5059201E11C745AD477AD079 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8F3A227A9FA4528537EE2DF /* Pods-Yummy.debug.xcconfig */,
+				D8B389ABB457B739161928CC /* Pods-Yummy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6DBE36E522C6C931000BE67A = {
 			isa = PBXGroup;
 			children = (
 				6DBE36F022C6C931000BE67A /* Yummy */,
 				6DBE36EF22C6C931000BE67A /* Products */,
+				5059201E11C745AD477AD079 /* Pods */,
+				B9437BE523A1992B37802CAF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +92,8 @@
 		6DBE36F022C6C931000BE67A /* Yummy */ = {
 			isa = PBXGroup;
 			children = (
+				6DBE371822C75AA5000BE67A /* Model */,
+				6DBE370322C750E2000BE67A /* Screens */,
 				6DBE36F122C6C931000BE67A /* AppDelegate.swift */,
 				6DBE36F322C6C931000BE67A /* ViewController.swift */,
 				6DBE36F522C6C931000BE67A /* Main.storyboard */,
@@ -64,6 +104,103 @@
 			path = Yummy;
 			sourceTree = "<group>";
 		};
+		6DBE370322C750E2000BE67A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				6DBE371222C7570F000BE67A /* Location */,
+				6DBE370C22C75444000BE67A /* List */,
+				6DBE370622C75234000BE67A /* Details */,
+				6DBE370422C75119000BE67A /* BaseView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		6DBE370622C75234000BE67A /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				6DBE370722C75260000BE67A /* View */,
+				6DBE370A22C753E9000BE67A /* DetailsFoodViewController.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		6DBE370722C75260000BE67A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6DBE370822C75278000BE67A /* DetailsFoodView.swift */,
+				6DBE378F23075D9B000BE67A /* DetailsCollectionCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6DBE370C22C75444000BE67A /* List */ = {
+			isa = PBXGroup;
+			children = (
+				6DBE370F22C75531000BE67A /* View */,
+				6DBE370D22C75497000BE67A /* RestaruntsTableViewController.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		6DBE370F22C75531000BE67A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6DBE371022C75554000BE67A /* ResturantCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6DBE371222C7570F000BE67A /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				6DBE371322C75727000BE67A /* Controller */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		6DBE371322C75727000BE67A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6DBE371622C75832000BE67A /* LocationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6DBE371822C75AA5000BE67A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6DBE371C22C76A5C000BE67A /* AppManager */,
+				6DBE371922C75AAF000BE67A /* Services */,
+				6DBE372122C7C1C6000BE67A /* Business.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6DBE371922C75AAF000BE67A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6DBE371A22C75AE0000BE67A /* TrackerModel.swift */,
+				6DBE371F22C77805000BE67A /* Network.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6DBE371C22C76A5C000BE67A /* AppManager */ = {
+			isa = PBXGroup;
+			children = (
+				6DBE371D22C76A6F000BE67A /* AppManager.swift */,
+			);
+			path = AppManager;
+			sourceTree = "<group>";
+		};
+		B9437BE523A1992B37802CAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4BB534B89425B6B0DD37B85 /* Pods_Yummy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DBE370022C6C939000BE67A /* Build configuration list for PBXNativeTarget "Yummy" */;
 			buildPhases = (
+				A28300059FE3B3DC6876141A /* [CP] Check Pods Manifest.lock */,
 				6DBE36EA22C6C931000BE67A /* Sources */,
 				6DBE36EB22C6C931000BE67A /* Frameworks */,
 				6DBE36EC22C6C931000BE67A /* Resources */,
+				F50820C29E68AEE2D06180E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +269,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A28300059FE3B3DC6876141A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yummy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F50820C29E68AEE2D06180E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Yummy/Pods-Yummy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yummy/Pods-Yummy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6DBE36EA22C6C931000BE67A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DBE371722C75832000BE67A /* LocationController.swift in Sources */,
+				6DBE371E22C76A6F000BE67A /* AppManager.swift in Sources */,
+				6DBE370522C75119000BE67A /* BaseView.swift in Sources */,
+				6DBE370922C75278000BE67A /* DetailsFoodView.swift in Sources */,
+				6DBE370B22C753E9000BE67A /* DetailsFoodViewController.swift in Sources */,
+				6DBE372022C77805000BE67A /* Network.swift in Sources */,
 				6DBE36F422C6C931000BE67A /* ViewController.swift in Sources */,
+				6DBE379023075D9B000BE67A /* DetailsCollectionCell.swift in Sources */,
+				6DBE370E22C75497000BE67A /* RestaruntsTableViewController.swift in Sources */,
+				6DBE371B22C75AE0000BE67A /* TrackerModel.swift in Sources */,
+				6DBE372222C7C1C7000BE67A /* Business.swift in Sources */,
+				6DBE371122C75554000BE67A /* ResturantCell.swift in Sources */,
 				6DBE36F222C6C931000BE67A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +483,7 @@
 		};
 		6DBE370122C6C939000BE67A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8F3A227A9FA4528537EE2DF /* Pods-Yummy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +501,7 @@
 		};
 		6DBE370222C6C939000BE67A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8B389ABB457B739161928CC /* Pods-Yummy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
