@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3016EE169459347B6EF7C2C5 /* Pods_Yummy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4BB534B89425B6B0DD37B85 /* Pods_Yummy.framework */; };
 		6DBE36F222C6C931000BE67A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE36F122C6C931000BE67A /* AppDelegate.swift */; };
-		6DBE36F422C6C931000BE67A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBE36F322C6C931000BE67A /* ViewController.swift */; };
 		6DBE36F722C6C931000BE67A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DBE36F522C6C931000BE67A /* Main.storyboard */; };
 		6DBE36F922C6C939000BE67A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DBE36F822C6C939000BE67A /* Assets.xcassets */; };
 		6DBE36FC22C6C939000BE67A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DBE36FA22C6C939000BE67A /* LaunchScreen.storyboard */; };
@@ -29,7 +28,6 @@
 /* Begin PBXFileReference section */
 		6DBE36EE22C6C931000BE67A /* Yummy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yummy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DBE36F122C6C931000BE67A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6DBE36F322C6C931000BE67A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6DBE36F622C6C931000BE67A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6DBE36F822C6C939000BE67A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DBE36FB22C6C939000BE67A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -95,7 +93,6 @@
 				6DBE371822C75AA5000BE67A /* Model */,
 				6DBE370322C750E2000BE67A /* Screens */,
 				6DBE36F122C6C931000BE67A /* AppDelegate.swift */,
-				6DBE36F322C6C931000BE67A /* ViewController.swift */,
 				6DBE36F522C6C931000BE67A /* Main.storyboard */,
 				6DBE36F822C6C939000BE67A /* Assets.xcassets */,
 				6DBE36FA22C6C939000BE67A /* LaunchScreen.storyboard */,
@@ -333,7 +330,6 @@
 				6DBE370922C75278000BE67A /* DetailsFoodView.swift in Sources */,
 				6DBE370B22C753E9000BE67A /* DetailsFoodViewController.swift in Sources */,
 				6DBE372022C77805000BE67A /* Network.swift in Sources */,
-				6DBE36F422C6C931000BE67A /* ViewController.swift in Sources */,
 				6DBE379023075D9B000BE67A /* DetailsCollectionCell.swift in Sources */,
 				6DBE370E22C75497000BE67A /* RestaruntsTableViewController.swift in Sources */,
 				6DBE371B22C75AE0000BE67A /* TrackerModel.swift in Sources */,
